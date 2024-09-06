@@ -1,0 +1,62 @@
+body {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    background-color: #f0f0f3;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #c7c7c7, 
+               -4px -4px 8px #ffffff;
+    width: fit-content;
+    height: min-content;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #f0f0f3;
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px #babecc,
+                inset -5px -5px 10px #ffffff;
+}
+
+button.btn-primary {
+    background-color: #f0f0f3;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #babecc,
+                -5px -5px 10px #ffffff;
+    transition: box-shadow 0.2s ease;
+}
+
+button.btn-primary:hover {
+    box-shadow: 5px 5px 15px #babecc,
+                -5px -5px 15px #ffffff;
+}
+
+.form-check-label,
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
